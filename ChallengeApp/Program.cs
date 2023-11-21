@@ -6,11 +6,11 @@ int age = 17;
 
 
 
-if (name == "Ewa" && age > 30)
+if (name == "Ewa" && age < 30)
 {
     Console.WriteLine("Kobieta poniżej 30 lat");
 }
-else if (name == "Ewa" && age < 17) 
+else if (name == "Ewa" && age == 33) 
 {
     Console.WriteLine("Ewa,lat 33");
 }
