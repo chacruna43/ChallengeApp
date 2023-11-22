@@ -3,22 +3,21 @@
 
 /// Zadanie nr 4
 
+string name = "Ewa";
+int age = 18;
+string gender = "male";
 
-string namesToCompare = "Ewa,Kobieta o imieniu Maria";
-string gender = "Male";
-int ageMale = 15;
-
-
-
-if (namesToCompare.Split(',').Contains ("Kobieta o imieniu Maria") && ageMale < 30)
-{
+if(name == "Ewa" && age < 30)
+{ 
     Console.WriteLine("Kobieta poniżej 30 lat");
 }
-else if (namesToCompare.Split(',').Contains("Ewa") && ageMale <= 33)
+else if(name == "Ewa" && age == 33)
 { 
-    Console.WriteLine("Ewa,lat 33");
+    Console.WriteLine("EWa lat 33");
 }
-else if (gender == "Male" && ageMale == 15)
+else if(gender == "male" && age < 18)
 {
-    Console.WriteLine("Niepełnoletni Mezczyzna");
+    Console.WriteLine("Niepełnoletni Mężczyzna");
 }
+
+
