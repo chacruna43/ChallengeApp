@@ -2,20 +2,20 @@
 
 
 /// Zadanie nr 4
-
 string name = "Ewa";
-int age = 18;
-string gender = "male";
+string gender = "female";
+int age = 17;
 
-if(name == "Ewa" && age < 30)
+
+if(gender == "female" && age < 30)
 { 
     Console.WriteLine("Kobieta poniżej 30 lat");
 }
-else if(name == "Ewa" && age == 33)
+ else if(name == "Ewa" && age == 30)
 { 
     Console.WriteLine("EWa lat 33");
 }
-else if(gender == "male" && age < 18)
+ else if(gender != "female" && age < 18)
 {
     Console.WriteLine("Niepełnoletni Mężczyzna");
 }
